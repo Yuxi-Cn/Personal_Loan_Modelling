@@ -1,0 +1,18 @@
+Dataset Overview:
+This dataset comprises information on 5000 customers, wherein each customer is offered a loan based on their earned points. 
+
+The dataset includes the following features:
+
+- Age: Age of the customer in completed years
+- Experience: Years of professional experience
+- Income: Annual income of the customer
+- Zip code: Customer's home address zip code
+- Family: Size of the customer's family
+- CCAvg: Average monthly spending on credit cards
+- Education: Level of education (1 for Undergraduate, 2 for Graduate, 3 for Advanced)
+- Mortgage: Value of the house mortgage, if applicable
+- Personal_loan: Indicates if the customer accepted the personal loan offered in the last campaign (0 for No, 1 for Yes)
+- Security_account: Indicates if the customer holds a securities account with the bank (0 for No, 1 for Yes)
+- Cd_account: Indicates if the customer holds a certificate of deposit (CD) account with the bank (0 for No, 1 for Yes)
+- Online: Indicates if the customer uses internet banking facilities (0 for No, 1 for Yes)
+- Creditcard: Indicates if the customer uses a credit card issued by Universal Bank (0 for No, 1 for Yes)
