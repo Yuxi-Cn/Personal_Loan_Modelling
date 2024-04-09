@@ -39,13 +39,12 @@ This section explores SVM modelling on feature preprocessing, fitting assessment
 
 ## Evaluation and Fine-tuning
 
-With thorough assessment and model optimisation shown below, the SVM model employs various methods to evaluate prediction performance on the testing set, ensuring reliability and validity of results. The linear kernel produces a higher average stratified k-fold cross-validation score of 0.9078. However, with a model accuracy of **0.9750**, it seems that the stratified cross-validation method doesn't notably improve performance. The best hyperparameters **{'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}** are determined through grid search, outputting a final accuracy of 0.9760 for the training set.
+With thorough assessment shown below, the SVM model employs various methods to evaluate prediction performance on the testing set, ensuring reliability and validity of results. The linear kernel produces a higher average stratified k-fold cross-validation score of 0.9078. However, with a model accuracy of **0.9750**, it seems that the stratified cross-validation method doesn't notably improve performance. The best hyperparameters **{'C': 10, 'gamma': 0.1, 'kernel': 'rbf'}** are determined through grid search, securing a final accuracy of 0.9760 for the training set.
 
 * Confusion Matrix
 * Classification Metrics
 * ROC - AUC
 * Stratified k-fold Cross-Validation with Shuffle Split
-* Hyperparameter Optimisation with GridSearchCV
 
 ## Results and Concludion
 The testing set accuracy using the optimal hyperparameters also reached 0.9760. This means the model generalises well beyond the training set and demonstrates robust label prediction accuracy on unseen data. 
