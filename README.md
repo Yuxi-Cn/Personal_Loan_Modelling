@@ -46,7 +46,7 @@ With thorough assessment shown below, the SVM model employs various methods to e
 * ROC - AUC
 * Stratified k-fold Cross-Validation with Shuffle Split
 
-## Results and Concludion
+## Results and Conclusion
 The testing set accuracy using the optimal hyperparameters also reached **0.9760**. This means the model generalises well beyond the training set and demonstrates robust label prediction accuracy on unseen data. 
 Based on this modeling, we draw the following conclusions:
 
